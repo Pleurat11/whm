@@ -41,16 +41,19 @@ public class orvx {
 
         BrowserUtils.sleep(2);
 
-        WebElement selecttwo = Driver.getDriver().findElement(By.xpath("(//select[@class='select2 form-control select2-hidden-accessible'])[6]"));
-        Select select= new Select(selecttwo);
-        select.selectByVisibleText("Seller 43");
+//        WebElement selecttwo = Driver.getDriver().findElement(By.xpath("(//select[@class='select2 form-control select2-hidden-accessible'])[6]"));
+//        Select select= new Select(selecttwo);
+//        select.selectByVisibleText("Seller 43");
 
 
-        BrowserUtils.sleep(1);
+//        BrowserUtils.sleep(1);
+//
+//        Driver.getDriver().findElement(By.id("searchb")).click();
+//
+//        BrowserUtils.sleep(3);
 
-        Driver.getDriver().findElement(By.id("searchb")).click();
+        BrowserUtils.sleep(20);
 
-        BrowserUtils.sleep(3);
 
         List<WebElement> check = Driver.getDriver().findElements(By.xpath("//div[@class='badge badge-pill badge-glow  badge-primary badge-md mr-1 mb-1']"));
 

@@ -18,11 +18,11 @@ public class whmChangePassword {
         WhmPage whmPage = new WhmPage();
 
         BrowserUtils.sleep(5);
-        whmPage.logInWhm("https://c02.iservidorweb.com:2087/", "knzkekzu", "gQ96(!qR6[b,");
+        whmPage.logInWhm("https://svr165.edns1.com:2087/", "root", "K$mk&14eG6");
 
         BrowserUtils.sleep(20);
 
-        WhmPage.changePassto("2EUY1IG}*EtR");
+        WhmPage.changePassto("PEJAATTACK#@!");
 
 
     }

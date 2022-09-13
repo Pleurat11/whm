@@ -21,14 +21,23 @@ public class WhmChecker {
     @Test
     public void test() {
 
-        whmPage.logInWhm("https://iuri0156.hospedagemdesites.ws:2087/", "charles1", "Cha$280748240645");
+        whmPage.logInWhm(" http://sunupdeal.com:2086/", "takahost", "8o#3#U1n$yY6h");
+
+
+
+
+
+
+
+
+
+
 
         BrowserUtils.sleep(20);
 
         for (int i = 0; i <usernames.size(); i++) {
             System.out.println("https://" + urlOfCpn.get(i).getText()+":2083|" + usernames.get(i).getText());
         }
-
 
 
 //        for (WebElement each : whmPage.urlOfCpanels) {
